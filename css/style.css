@@ -28,12 +28,13 @@ p { /* select all <p> */
 
      /* you can comment out all above & write it like this: */
      font: normal 0.75em/1.5em Georgia,"New Times Roman", serif;
-     color: #000000 ;
+     color:  ;
 
       /*you can directly write out color or use hexidecimal system:
+      #000000
       #6 digits, 0-9 or A-F, first 2 = red, second 2 = green, last 2 = blue
         or #FF0000 = RED, 00FF00 = GREEN , 0000FF
-        or use RGBA values (255,0,0,1) = red, 100% opaque (last value = opacity) 
+        or use RGBA values (255,0,0,1) = red, 100% opaque (last value = opacity)
       */
 
 

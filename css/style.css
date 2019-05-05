@@ -65,3 +65,15 @@ p { /* select all <p> */
 
 /* ID selector (apply to one unique element per page)
 you can apply classes on multiple elements, but not ID */
+/* and then nest it in a div like this :
+<!- logo -->
+<div id="logo">
+<h1>Exceptional</h1>
+<h2>Realty Group</h2>
+</div>
+<nav>
+  <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+</nav>
+</header>
+
+so that part is a box and  so css can target that unique id for box */

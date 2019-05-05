@@ -85,14 +85,24 @@ so that part is a box and  so css can target that unique id for box */
 
 /*Descendent Selector
 - selects Descendents within another parent element */
-
 #logo h1 {
   font-family: 'Clicker Script', cursive;
 }
-
 #logo h2 {
   font-family: 'Elsie Swash Caps', cursive;
 }
-
 /* ^ browser first looks for id of logo, space will tell it to go in & look for it's Descendents.
 h1 which will only style h1's if its inside an element with id = logo */
+
+/*Psuedo Selector  
+- selects element based on event state of other elements
+- ex if you wanna style all the links in the detail section-- */
+
+#details a:link 
+
+^ looking for section called details, with space it'll go in & find all links, to select
+in specific pseudo class state say a: and name of state. 
+
+#details a: part is 
+:link 
+

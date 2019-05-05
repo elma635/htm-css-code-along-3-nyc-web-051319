@@ -120,6 +120,6 @@ in specific pseudo class state say a: and name of state.
   }
 
   #details a:active {
-    color: black;
+    color: red;
       text-decoration: none;
     }

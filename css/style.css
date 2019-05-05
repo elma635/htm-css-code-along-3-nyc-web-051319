@@ -77,3 +77,9 @@ you can apply classes on multiple elements, but not ID */
 </header>
 
 so that part is a box and  so css can target that unique id for box */
+#logo {
+  background-color: 
+}
+
+
+ /*apply to one unique element per page */

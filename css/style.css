@@ -85,7 +85,9 @@ so that part is a box and  so css can target that unique id for box */
 /*Descendent Selector
 - selects Descendents within another parent element */
 
-#logo
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
 
 /* ^ browser first looks for id of logo, space will tell it to go in & look for it's Descendents.
 h1 which will only style h1's if its inside an element with id = logo */

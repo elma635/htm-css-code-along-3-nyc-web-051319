@@ -32,7 +32,8 @@ p { /* select all <p> */
 
       /*you can directly write out color or use hexidecimal system:
       #6 digits, 0-9 or A-F, first 2 = red, second 2 = green, last 2 = blue
-        or #FF0000 = RED, 00FF00 = GREEN , 0000FF  
+        or #FF0000 = RED, 00FF00 = GREEN , 0000FF
+        or use RGBA values (255,0,0,1) = red, 100% opaque (last value = opacity) 
       */
 
 

@@ -52,3 +52,8 @@ p { /* select all <p> */
 
 /* Class selector (applied to as many elements  as you like, + diff kind of elements)
   unlike type selectors good for styling 1 style of elements, ^ class selectors, can be added anywhere & diff types */
+
+  .milk-text { /* select elemnts with class(attr)="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive; 
+
+  }

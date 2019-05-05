@@ -57,5 +57,6 @@ p { /* select all <p> */
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
+  /* textshadow = horizontal offset = 0, vertical = 2px, blur radius = 3px, color = black */
 
   }

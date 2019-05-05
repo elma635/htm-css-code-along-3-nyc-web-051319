@@ -113,3 +113,8 @@ in specific pseudo class state say a: and name of state.
 #details a: - part is a descendent selector
 :link  -- part is pseudo selector
 */
+
+#details a:hover {
+  color: black;
+    text-decoration: none;
+  }

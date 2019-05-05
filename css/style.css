@@ -99,9 +99,12 @@ h1 which will only style h1's if its inside an element with id = logo */
 - ex if you wanna style all the links in the detail section-- */
 
 #details a:link
+  color: black;
+    text-decoration: none;
+  }
 
 ^ looking for section called details, with space it'll go in & find all links, to select
 in specific pseudo class state say a: and name of state.
 
-#details a: part is
-:link 
+#details a: - part is a descendent selector
+:link  -- part is pseudo selector

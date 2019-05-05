@@ -28,7 +28,7 @@ p { /* select all <p> */
 
    line-height: 1.5em
    /*^ changes height in btwn each line in p. */
-
+}
    figcaption {
      /*font-weight: normal;
      font-size: 0.75em;  /* compared to 1em, its smaller */
@@ -48,9 +48,7 @@ p { /* select all <p> */
         or #FF0000 = RED, 00FF00 = GREEN , 0000FF
         or use RGBA values (255,0,0,1) = red, 100% opaque (last value = opacity)
       */
-
-
-
-   }
-
 }
+
+/* Class selector (applied to as many elements  as you like, + diff kind of elements)
+  unlike type selectors good for styling 1 style of elements, ^ class selectors, can be added anywhere & diff types */

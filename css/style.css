@@ -62,3 +62,6 @@ p { /* select all <p> */
   <h2 class="milk-text" add another-one, another-one >Featured Listings</h2> */
 
 }
+
+/* ID selector (apply to one unique element per page)
+you can apply classes on multiple elements, but not ID */

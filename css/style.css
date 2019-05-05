@@ -78,7 +78,7 @@ you can apply classes on multiple elements, but not ID */
 
 so that part is a box and  so css can target that unique id for box */
 #logo {
-  background-color: 
+  background-color: aqua;
 }
 
 

@@ -4,5 +4,16 @@
 
 selector {
   property: value;
-  property: value; 
+  property: value;
+}
+
+*/
+
+/* Type selector
+
+p { /* select all <p> */
+  font-size: 16px; /* 16px(exact amount regardless of browser), ?pt(12pt in word may not be same in safari),
+   100%(relative amount -- dependent on element itswelf & parent elements above it),
+   1em(1em = 16px -- em> px good in responsive design)*/
+
 }
